@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+main()
+{
+int y,x;
+printf("Enter integer number to solve the equation:\n");
+scanf("%d",&x);
+y = (5*x)+20;
+printf("Answer to the equation: %d\n",y);
+getchar();
+}
