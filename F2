@@ -1,0 +1,7 @@
+F2
+int func2(int d)
+{
+float h;
+h = d/2;
+	printf("D/2 = %f",h);
+}
