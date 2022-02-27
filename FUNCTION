@@ -1,0 +1,7 @@
+FUNCTION
+int Func(int x;int y)
+{
+	int d;
+	d = x*y;
+	printf("D = %d",d);
+}
