@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <math.h>
+int Func(int x,int y)
+{
+	int d;
+	d = x*y;
+	printf("D = %d",d);
+}
 main()
 {
 int y,x;
@@ -7,5 +13,6 @@ printf("Enter integer number to solve the equation:\n");
 scanf("%d",&x);
 y = (5*x)+20;
 printf("Answer to the equation: %d\n",y);
+Func(x,y);
 getchar();
 }
